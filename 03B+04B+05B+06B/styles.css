@@ -8,6 +8,7 @@ h1 {
     border: 2px solid red;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 p {
@@ -36,7 +37,7 @@ ul {
 }
 
 .link {
-    position: absolute;
+    position: fixed;
     top: 10px;
-    left: 10px;
+    left: 25px;
 }

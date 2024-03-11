@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+  }
+  
+  header {
+    background-color: darkgray;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .vertical-nav {
+    float: left;
+    width: 200px;
+  }
+  
+  .vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vertical-nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .vertical-nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  .content {
+    float: left;
+    width: calc(80% - 220px);
+    margin-left: 20px;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: gray;
+    color: white;
+    text-align:end;
+    padding: 100px;
+  }
+  
+  /* Hover effect for main navigation links */
+  nav ul li a:hover {
+    color: red;
+  }
+  
+  /* Add padding to text elements */
+  h1, p {
+    padding: 10px;
+  }
