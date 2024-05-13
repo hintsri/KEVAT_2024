@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etusivu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lukituskonsultit</h1>
+            <nav>
+                <ul>
+                    <li><a href="Yritys.html">Yritys</a></li>
+                    <li><a href="Palvelumme.html">Palvelumme</a></li>
+                    <li><a href="Yhteystiedot.html">Yhteystiedot</a></li>
+                    <li><a href="index.html">Etusivu</a></li>
+                    <li><a href="Referenssit.html">Referenssit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="Tarjonta">
+            <div class="container">
+                <img src="C:\Users\riksa\Desktop\Laurea\2024\Kevät 2024\Verkkosivujen kehittäminen R0244-3031\Kevat_2024\12-Website\istockphoto-1795443985-612x612.jpg">
+               
+                <h2>Mitä teemme?</h2>
+                <div class="service">
+                    <h3>Konsultointi</h3>
+                    <p>Annamme konsultin roolissa ulkopuolisen näkemyksen lukitusjärjestelmän suunnitteluun, sekä hankintaan. </p>
+                    <p>Kerromme alan asiantuntijana kuinka markkinoilta saatavat järjestelmät eroavat toisistaan.</p>
+                </div>
+                <div class="service">
+                    <h3>Tietoisku</h3>
+                    <p>Järjestämme koulutuksia ja tietoiskuja lukitusjärjestelmien toimintaan liittyen.</p>
+                    <ul>
+                        <li>iLOQ S10, S5, S50</p>
+                        <li>Abloy mekaaniset</P>
+                        <li>Abloy elektromekaaniset</p>
+                        <li>Dorma&Kaba</P>
+                        <li>Salto Systems</p>
+                    </ul>
+                </div>
+                <div class="service">
+                    <h3>Lisäarvo</h3>
+                    <p>Opastamme ja avustamme ylläpidon aikaisissa kysymyksissä, tarvittaessa lukitusjärjestelmän koko elinkaaren ajan.</p>
+                </div>
+                <img src="C:\Users\riksa\Desktop\Laurea\2024\Kevät 2024\Verkkosivujen kehittäminen R0244-3031\Kevat_2024\12-Website\istockphoto-523038646-612x612.jpg">
+            </div>
+        </section>
+        <section id="asiakkaat">
+            <div class="container">
+                <h2>Referenssit</h2>
+                <p>Tarjoamme palveluitamme ensisijaisesti taloyhtiöille, isännöintitoimistoille ja kiinteistösijoittajille.</p>
+                <p>Asiakkaamme nyt:</p>
+                <ul>
+                    <li>Isännöintitoimisto XX</li>
+                    <li>Koy XXXX</li>
+                    <li>Kunnan XXXX asuntotuotanto</li>
+                </ul>
+            </div>
+        </section>
+        <section id="yhteystiedot">
+            <div class="container">
+                <h2>Ota yhteyttä</h2>
+                <p>Jos haluat lisätietoja palveluistamme tai haluat pyytää tarjousta, ota meihin yhteyttä alla olevalla lomakkeella.</p>
+                <form action="submit.php" method="POST">
+                    <label for="nimi">Nimi:</label>
+                    <input type="text" id="nimi" name="nimi" required>
+                    <label for="email">Sähköposti:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="viesti">Viesti:</label>
+                    <textarea id="viesti" name="viesti" required></textarea>
+                    <button type="submit">Lähetä</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Riku Hintsala</p>
+        </div>
+    </footer>
+</body>
+</html>
